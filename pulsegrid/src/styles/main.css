@@ -35,6 +35,11 @@ body,
   height: 100%;
   display: block;
   cursor: crosshair;
+  z-index: 1;
+}
+
+#app.modal-open #game-canvas {
+  pointer-events: none;
 }
 
 .overlay {
@@ -46,7 +51,8 @@ body,
     linear-gradient(180deg, rgba(5, 8, 15, 0.55), rgba(5, 8, 15, 0.82)),
     radial-gradient(60% 50% at 70% 20%, rgba(61, 230, 212, 0.12), transparent 70%);
   backdrop-filter: blur(6px);
-  z-index: 20;
+  z-index: 30;
+  pointer-events: auto;
 }
 
 .overlay.hidden,

@@ -3,6 +3,7 @@ import { Game } from './game/Game';
 import { TOWERS } from './game/data';
 import type { TowerKind } from './game/types';
 
+const appRoot = document.querySelector<HTMLElement>('#app')!;
 const canvas = document.querySelector<HTMLCanvasElement>('#game-canvas')!;
 const boot = document.querySelector<HTMLElement>('#boot-screen')!;
 const howto = document.querySelector<HTMLElement>('#howto-screen')!;
@@ -25,6 +26,19 @@ function showToast(msg: string): void {
   toastTimer = window.setTimeout(() => toastEl.classList.add('hidden'), 2200);
 }
 
+function syncModalClass(): void {
+  const open =
+    !boot.classList.contains('hidden') ||
+    !howto.classList.contains('hidden') ||
+    !endScreen.classList.contains('hidden');
+  appRoot.classList.toggle('modal-open', open);
+}
+
+function closeHowto(): void {
+  howto.classList.add('hidden');
+  syncModalClass();
+}
+
 const game = new Game(canvas, {
   onHud: (s) => {
     creditsEl.textContent = String(s.credits);
@@ -38,6 +52,7 @@ const game = new Game(canvas, {
   onToast: showToast,
   onEnd: (won) => {
     endScreen.classList.remove('hidden');
+    syncModalClass();
     document.querySelector('#end-brand')!.textContent = won ? 'SECTOR CLEAR' : 'CORE BREACHED';
     document.querySelector('#end-title')!.textContent = won
       ? 'You held the grid'
@@ -61,10 +76,13 @@ for (const def of TOWERS) {
 }
 towerButtons.querySelector<HTMLButtonElement>('.tower-btn')?.classList.add('active');
 
+syncModalClass();
+
 document.querySelector('#btn-start')!.addEventListener('click', () => {
   boot.classList.add('hidden');
   howto.classList.add('hidden');
   hud.classList.remove('hidden');
+  syncModalClass();
   game.start();
   showToast('Place relays, then call the first wave');
 });
@@ -73,14 +91,17 @@ document.querySelector('#btn-howto')!.addEventListener('click', (ev) => {
   ev.preventDefault();
   ev.stopPropagation();
   howto.classList.remove('hidden');
+  syncModalClass();
 });
-document.querySelector('#btn-howto-close')!.addEventListener('click', (ev) => {
+
+const howtoClose = document.querySelector<HTMLButtonElement>('#btn-howto-close')!;
+howtoClose.addEventListener('click', (ev) => {
   ev.preventDefault();
   ev.stopPropagation();
-  howto.classList.add('hidden');
+  closeHowto();
 });
-howto.addEventListener('click', (ev) => {
-  if (ev.target === howto) howto.classList.add('hidden');
+howto.addEventListener('pointerdown', (ev) => {
+  if (ev.target === howto) closeHowto();
 });
 
 document.querySelector('#btn-sell')!.addEventListener('click', () => game.sellSelected());
@@ -88,11 +109,16 @@ document.querySelector('#btn-next-wave')!.addEventListener('click', () => game.c
 
 document.querySelector('#btn-restart')!.addEventListener('click', () => {
   endScreen.classList.add('hidden');
+  syncModalClass();
   game.restart();
   showToast('New breach cycle ready');
 });
 
 window.addEventListener('keydown', (ev) => {
+  if (ev.key === 'Escape' && !howto.classList.contains('hidden')) {
+    closeHowto();
+    return;
+  }
   const map: Record<string, TowerKind> = {
     '1': 'beam',
     '2': 'salvo',
