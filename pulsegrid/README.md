@@ -35,6 +35,18 @@ The installer appears in `pulsegrid/release/` as a `.dmg` (name includes version
 >
 > Or trigger the GitHub Action **Pulsegrid macOS DMG** (`workflow_dispatch`) and download the artifact `pulsegrid-macos-dmg`.
 
+### macOS: “Pulsegrid is damaged and can’t be opened”
+
+That message usually means Gatekeeper blocked an **unsigned** download, not a corrupt file. After installing to Applications, run this in Terminal:
+
+```bash
+xattr -cr /Applications/Pulsegrid.app
+```
+
+Then open Pulsegrid again (or right-click the app → **Open** → confirm).
+
+Alternative: **System Settings → Privacy & Security** → scroll to the blocked-app notice → **Open Anyway**.
+
 ## Controls
 
 | Input | Action |
