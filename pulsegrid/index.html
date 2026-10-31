@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Pulsegrid — original 3D tower defense" />
+    <title>Pulsegrid</title>
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;800&family=IBM+Plex+Sans:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="app">
+      <canvas id="game-canvas"></canvas>
+
+      <div id="boot-screen" class="overlay">
+        <div class="boot-panel">
+          <p class="brand">PULSEGRID</p>
+          <h1>Defend the lattice</h1>
+          <p class="lede">
+            Place relays on the grid, starve the breach of energy, and hold
+            through escalating pulse waves.
+          </p>
+          <div class="boot-actions">
+            <button id="btn-start" class="btn primary">Start breach</button>
+            <button id="btn-howto" class="btn ghost">How to play</button>
+          </div>
+          <p class="hint">Original game — not affiliated with any classic Flash/PSP title.</p>
+        </div>
+      </div>
+
+      <div id="howto-screen" class="overlay hidden">
+        <div class="boot-panel narrow">
+          <p class="brand">OPS BRIEF</p>
+          <ul class="howto-list">
+            <li>Click a cell to place the selected relay.</li>
+            <li>Click an owned relay to upgrade it (costs credits).</li>
+            <li>Enemies follow the breach lane — stop them before the core.</li>
+            <li>Earn credits from scrap. Survive all waves to clear the sector.</li>
+          </ul>
+          <button id="btn-howto-close" class="btn primary">Got it</button>
+        </div>
+      </div>
+
+      <div id="hud" class="hidden">
+        <header class="hud-top">
+          <div class="stat">
+            <span class="label">Credits</span>
+            <strong id="stat-credits">220</strong>
+          </div>
+          <div class="stat">
+            <span class="label">Core</span>
+            <strong id="stat-lives">20</strong>
+          </div>
+          <div class="stat">
+            <span class="label">Wave</span>
+            <strong id="stat-wave">1 / 20</strong>
+          </div>
+          <div class="stat">
+            <span class="label">Interest</span>
+            <strong id="stat-interest">2%</strong>
+          </div>
+        </header>
+
+        <aside class="tower-dock">
+          <p class="dock-title">Relays</p>
+          <div id="tower-buttons" class="tower-grid"></div>
+          <button id="btn-sell" class="btn ghost small">Sell selected</button>
+          <button id="btn-next-wave" class="btn primary small">Call next wave</button>
+        </aside>
+
+        <div id="toast" class="toast hidden"></div>
+      </div>
+
+      <div id="end-screen" class="overlay hidden">
+        <div class="boot-panel">
+          <p class="brand" id="end-brand">SECTOR CLEAR</p>
+          <h1 id="end-title">You held the grid</h1>
+          <p class="lede" id="end-lede">All pulse waves neutralized.</p>
+          <button id="btn-restart" class="btn primary">Play again</button>
+        </div>
+      </div>
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

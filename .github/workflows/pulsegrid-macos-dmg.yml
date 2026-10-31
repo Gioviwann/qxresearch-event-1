@@ -1,0 +1,34 @@
+name: Pulsegrid macOS DMG
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'pulsegrid/**'
+      - '.github/workflows/pulsegrid-macos-dmg.yml'
+
+jobs:
+  build-dmg:
+    runs-on: macos-latest
+    defaults:
+      run:
+        working-directory: pulsegrid
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+          cache-dependency-path: pulsegrid/package-lock.json
+      - name: Install
+        run: npm ci
+      - name: Build DMG
+        run: npm run dist:mac
+        env:
+          CSC_IDENTITY_AUTO_DISCOVERY: 'false'
+      - name: Upload DMG
+        uses: actions/upload-artifact@v4
+        with:
+          name: pulsegrid-macos-dmg
+          path: pulsegrid/release/*.dmg
+          if-no-files-found: error
