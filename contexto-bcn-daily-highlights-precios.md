@@ -12,6 +12,8 @@ Memoria operativa asimilada del chat de recálculo de precio de venta (público 
 - `.../canvases/highlights-31-50-atencion.canvas.tsx` — 31,50 € + atención/reseñas competidores
 - Relacionados previos: `barcelona-highlights-student-price.canvas.tsx`, `montjuic-coast-ebike-price.canvas.tsx`, `precios-bici-barcelona.canvas.tsx`, `barcelona-bike-benchmark-2026.canvas.tsx`
 
+**Continuación del mismo chat (asimilada aparte):** correo B2B partners 2027 + extracción PPTX Tour Pricing 2027 → Excel → ver `contexto-bcn-tour-pricing-2027-deck.md`. En el deck Gio/Rob el público Highlights queda fijado a **€32** (grupos 10+ €38 · escuelas €31,50).
+
 ---
 
 ## 1. Hipótesis de coste (comunes)
