@@ -1,0 +1,75 @@
+{
+  "titulo": "Transporte privado VIP Barcelona — A-Bike / Color Bikes",
+  "actualizado": "2026-11-03",
+  "uso": "Contactar para sumar traslado + espera a rutas en bici. Pedir tarifa neta agencia, 4h con espera, Mercedes V o Sprinter.",
+  "prioridad_grupos": [
+    {
+      "empresa": "AC Cars",
+      "email": "info@accars.es",
+      "telefono": "+34 934 146 341",
+      "prioridad": 1,
+      "encaja_disposicion": true,
+      "notas": "Más de 30 años; Mercedes V, minibús, autocar; disposiciones y visitas. Primer contacto recomendado."
+    },
+    {
+      "empresa": "J&G Elegance Cars",
+      "email": "info@jgelegancecars.com",
+      "telefono": "+34 671 517 885",
+      "prioridad": 2,
+      "encaja_disposicion": true
+    },
+    {
+      "empresa": "Transfers Cars Barcelona",
+      "email": "info@bcntransfer.com",
+      "telefono": "+34 934 736 736",
+      "prioridad": 2,
+      "encaja_disposicion": true
+    },
+    {
+      "empresa": "Chofer Barcelona",
+      "email": "info@barcelonachofer.com",
+      "telefono": null,
+      "prioridad": 2,
+      "encaja_disposicion": true,
+      "precios_publicos": {
+        "mercedes_v_7_plazas_4h_eur": 280,
+        "mercedes_v_7_plazas_8h_eur": 600,
+        "sprinter_16_plazas_medio_dia_eur": 460
+      },
+      "web_contacto": "https://barcelonachofer.com/contacto/"
+    },
+    {
+      "empresa": "Enmercedes",
+      "email": "info@enmercedes.com",
+      "telefono": "+34 649 969 695",
+      "prioridad": 2,
+      "encaja_disposicion": true
+    },
+    {
+      "empresa": "Berlinas Barcelona",
+      "email": "info@berlinasbarcelona.com",
+      "telefono": "+34 643 937 607",
+      "prioridad": 2,
+      "encaja_disposicion": true
+    }
+  ],
+  "cliente_suelto": [
+    {
+      "empresa": "BCN Private Chauffeur (Royal Falcon)",
+      "email": "reservations@bcnprivatechauffeur.com",
+      "whatsapp": "+34 632 196 233",
+      "uso": "Aeropuerto, hotel, Montserrat, Costa Brava — pax individual o pequeño"
+    },
+    {
+      "empresa": "Royal Falcon (cuentas empresa)",
+      "email": "reservation@royalfalconlimo.es",
+      "uso": "Cuentas / reservas empresa"
+    }
+  ],
+  "otros": [
+    {
+      "empresa": "Otros contactos VIP (ampliado)",
+      "nota": "El chat original reportó 14 correos públicos en total. Priorizar el bloque prioridad_grupos; ampliar solo si no hay respuesta."
+    }
+  ]
+}
