@@ -1,6 +1,6 @@
 # Contexto: Cursor Agent, Grok Bot, tokens y plan Pro
 
-Memoria operativa asimilada del chat sobre Cursor IA / Cloud Agents, modelos Grok, tokens, cuotas Pro y configuración de Grok Bots. **No** reabrir el hilo; este archivo es la fuente en este agente.
+Memoria operativa asimilada de los chats sobre Cursor IA / Cloud Agents, modelos Grok, tokens, cuotas Pro, configuración de Grok Bots y **qué incluye el plan Pro**. **No** reabrir el hilo; este archivo es la fuente en este agente.
 
 **Cuenta / Spending (pantallazos del usuario):** plan legacy **Pro $20/mo** · ciclo Models **9 oct → 9 nov 2026** · On-Demand **Disabled** · Monthly Limit **Disabled**.
 
@@ -10,7 +10,34 @@ Memoria operativa asimilada del chat sobre Cursor IA / Cloud Agents, modelos Gro
 - Guía Grok Bot paso a paso (pasos clicables + prompts).
 - Guía “Tu Pro: tokens, modelos y Grok Bot” (tabs tokens / models / bot / calendar).
 
-Docs oficiales citadas: [Agent overview](https://cursor.com/es/docs/agent/overview.md) · [Cloud Agents](https://cursor.com/es/docs/cloud-agent.md) · [Grok Bot](https://cursor.com/es/docs/grok-bot.md) · [Get started](https://cursor.com/docs/grok-bot/get-started) · [Usage limits](https://cursor.com/help/models-and-usage/usage-limits) · [Models & pricing](https://cursor.com/docs/models-and-pricing.md) · [Grok Bot FAQs](https://cursor.com/help/grok-bot/faqs) · [Dashboard Bot](https://cursor.com/dashboard/bot) · [Download Bot](https://cursor.com/download/bot).
+Docs oficiales citadas: [Pricing](https://cursor.com/pricing) · [Agent overview](https://cursor.com/es/docs/agent/overview.md) · [Cloud Agents](https://cursor.com/es/docs/cloud-agent.md) · [Grok Bot](https://cursor.com/es/docs/grok-bot.md) · [Get started](https://cursor.com/docs/grok-bot/get-started) · [Usage limits](https://cursor.com/help/models-and-usage/usage-limits) · [Models & pricing](https://cursor.com/docs/models-and-pricing.md) · [Grok Bot FAQs](https://cursor.com/help/grok-bot/faqs) · [Dashboard Bot](https://cursor.com/dashboard/bot) · [Download Bot](https://cursor.com/download/bot).
+
+---
+
+## 0. Qué incluye Cursor Pro (chat “cursor pro que incluye”)
+
+**Pro** = plan individual **$20/mes** (~**$16/mes** anual). Incluye Hobby + más uso y herramientas.
+
+| Incluye | Detalle |
+|---------|---------|
+| **Tab** | Autocompletado **ilimitado** |
+| **Agent** | Límites ampliados vs gratis |
+| **2 pools mensuales** | Se reinician con el ciclo de facturación (ver §3) |
+| → Cursor Models | Grok, Composer — cupo “generoso” |
+| → Other Models | Claude, GPT, Gemini… — **$20** al precio API, **sin markup** |
+| Frontier models | Acceso a modelos frontier |
+| **MCP, skills, hooks** | Incluidos |
+| **Cloud Agents** | También desde iOS / web |
+| **Bugbot** | Reviews de PRs, **cobrado por uso** |
+| **On-demand** | Opcional si se acaba el incluido; **apagado por defecto** (cuenta del usuario: Disabled) |
+
+**No hay un número fijo de “X requests”.** Claude/GPT gastan el pool Other más rápido que Composer/Grok el de Cursor Models.
+
+**Vs otros planes:** Pro+ (**$60**) ≈ **3×** Agent de Pro · Ultra (**$200**) ≈ **20×**. Cursor recomienda Pro+ si usas Agent todos los días.
+
+**Estudiante:** el descuento de estudiante **ya no acepta altas nuevas**.
+
+Fuente de esa respuesta: docs/pricing oficiales vía cursor-guide + [cursor.com/pricing](https://cursor.com/pricing).
 
 ---
 
