@@ -14,6 +14,8 @@ Memoria operativa asimilada del chat de recálculo de precio de venta (público 
 
 **Continuación del mismo chat (asimilada aparte):** correo B2B partners 2027 + extracción PPTX Tour Pricing 2027 → Excel → ver `contexto-bcn-tour-pricing-2027-deck.md`. En el deck Gio/Rob el público Highlights queda fijado a **€32** (grupos 10+ €38 · escuelas €31,50).
 
+**Benchmark mercado bike tours/rentals 2026 (PDF + 17 tiendas):** `contexto-bcn-bike-benchmark-2026.md` — Highlights A-Bike **€29,50** en banda volumen €27–35; no bajar city day bajo €16.
+
 ---
 
 ## 1. Hipótesis de coste (comunes)
