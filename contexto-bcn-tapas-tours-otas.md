@@ -7,7 +7,7 @@ Memoria operativa asimilada del chat de investigación de mercado: walking tapas
 - [43 € y 66 € frente al mercado](https://cursor.com/canvas/store-48a0e5ab-ff86-4d10-8dc7-c2a0de19350b/b08d089a-7a1a-4a35-b0d4-76444b540103)
 - [Bike tours con tapas en Barcelona](https://cursor.com/canvas/store-48a0e5ab-ff86-4d10-8dc7-c2a0de19350b/d12c131f-9b89-4715-bffd-e4fd5cfc6626)
 
-**Relacionado:** `contexto-bcn-tour-pricing-2027-deck.md` (Tapas bike/walk en **hold** en deck Gio/Rob; Gio: tapas stop ~€20–22) · `contexto-bcn-daily-highlights-precios.md`.
+**Relacionado:** `contexto-bcn-tour-pricing-2027-deck.md` (Tapas bike/walk en **hold** en deck Gio/Rob; Gio: tapas stop ~€20–22) · `contexto-bcn-daily-highlights-precios.md` · **catálogo EN Excel 37 opciones / 11 empresas:** `contexto-bcn-tapas-tours-excel-catalog.md` (`barcelona-tapas-tours.xlsx`).
 
 ---
 
