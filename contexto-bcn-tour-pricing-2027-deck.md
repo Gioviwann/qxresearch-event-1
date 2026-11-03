@@ -6,6 +6,8 @@ Memoria operativa asimilada del chat *BCN Daily tour prices* (continuación): (1
 
 **Canvases locales (máquina Gio, mailforms):** Highlights 2,5 h, 32,50 €, 31,50 € + atención competidores (ver contexto Highlights).
 
+**Mercado tapas (walking + bike) y OTAs:** ver `contexto-bcn-tapas-tours-otas.md` (benchmark oct 2026; escenario walking 43 € estudiante / 66 € adulto mín. 10; bike A-Bike 41,50 € vs Born 42 €).
+
 **Reglas transversales del deck:** precios **con 21% IVA** salvo marca · público calculado a **14** pax · break-even = pax para cubrir costes sin beneficio · máx. **14** ciclistas/guía (**7** en Gothic/El Born) · cotizaciones ya hechas a clientes **se mantienen** · e-bike upgrade **+€12**/pax (no hay salida pública solo e-bike) · `hold` = pendiente Gio (tapas / Montjuïc).
 
 ---
