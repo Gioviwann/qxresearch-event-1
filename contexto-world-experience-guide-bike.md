@@ -52,7 +52,8 @@ World Experience mainly **rents bikes / books activities** with A-Bike. Past fin
 
 ### Weather
 
-- Once booked and paid, services run **rain or shine**; ponchos are provided.
+- Once booked and paid, services run **rain or shine**.
+- **Ponchos** can be provided at the **same price as the helmet** on this card.
 - **We** cancel only under an official **AEMET red** weather warning, with a **full refund**.
 - If **you** cancel because of weather, Viator/DMC rules, or soft rain forecasts, the cancellation terms above apply.
 
