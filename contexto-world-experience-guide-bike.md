@@ -23,8 +23,16 @@ Friendly tone for the partner; commercial protections kept. Fixed: high season e
 
 ### Bookings & confirmation
 
-- Bookings by email to **barcelona@a-bike.es**. We confirm within **24 hours** on working days. Last-minute requests are welcome, subject to availability.
+- Bookings by email to **barcelona@a-bike.es**. We confirm within **24 hours** on working days. Last-minute requests are welcome for daily and private tours, subject to availability and the payment deadlines below.
+- **Groups and MICE** must be booked **at least one month** in advance, with **full payment** of the activity at the same time.
 - Departures start and finish at the same shop — **Carrer dels Tallers 45** or **Carrer de Montserrat 8** — as confirmed with the booking.
+
+### Payment
+
+- Invoices are issued on confirmation and payable by **bank transfer**.
+- **Daily tours:** paid in full **at least 24 hours** before the start of the service.
+- **Private tours:** paid in full **at least 2 days** before the start of the service.
+- **Groups and MICE:** booked and paid in full **at least one month** in advance, at the prices and conditions on this card.
 
 ### Group size & changes
 
@@ -41,13 +49,6 @@ Friendly tone for the partner; commercial protections kept. Fixed: high season e
 
 - Tours run **rain or shine**; ponchos are provided.
 - We cancel only under an official **AEMET red** weather warning, with a **full refund**.
-
-### Payment
-
-- **All services** must be paid in full **at least 24 hours before** the start of the service.
-- Invoices are issued on confirmation and payable by **bank transfer**.
-- **Daily** and **private** tours: paid in advance, no later than 24 hours before departure.
-- **MICE**: prices and conditions on this card; payable **one month** in advance (and in any case before the 24-hour cut-off above).
 
 ### Bike transport
 
