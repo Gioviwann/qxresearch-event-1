@@ -44,9 +44,10 @@ Friendly tone for the partner; commercial protections kept. Fixed: high season e
 
 ### Payment
 
-- Invoices are issued on confirmation and payable in full by **bank transfer** before the date of travel.
-- **Daily** and **private** tours: paid in advance, before departure.
-- **MICE**: prices and conditions on this card; payable **one month** in advance.
+- **All services** must be paid in full **at least 24 hours before** the start of the service.
+- Invoices are issued on confirmation and payable by **bank transfer**.
+- **Daily** and **private** tours: paid in advance, no later than 24 hours before departure.
+- **MICE**: prices and conditions on this card; payable **one month** in advance (and in any case before the 24-hour cut-off above).
 
 ### Bike transport
 
