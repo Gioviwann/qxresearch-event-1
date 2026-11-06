@@ -1,0 +1,113 @@
+{
+  "titulo": "Transporte privado VIP Barcelona — A-Bike / Color Bikes",
+  "actualizado": "2026-11-03",
+  "fuente_canvas": "canvases/transporte-vip-barcelona.canvas.tsx",
+  "fuente_contactos_web": "2026-10-27",
+  "uso": "Contactar para sumar traslado + espera a rutas en bici. Pedir tarifa neta agencia, 4h con espera, Mercedes V o Sprinter.",
+  "prioridad_grupos": [
+    {
+      "empresa": "AC Cars",
+      "email": "info@accars.es",
+      "telefono": "+34 934 146 341",
+      "prioridad": 1,
+      "encaja_disposicion": true,
+      "notas": "30 años. V, minibús y autocar. Tours y disposición. Primer contacto recomendado."
+    },
+    {
+      "empresa": "J&G Elegance Cars",
+      "email": "info@jgelegancecars.com",
+      "telefono": "+34 671 517 885",
+      "prioridad": 2,
+      "encaja_disposicion": true,
+      "notas": "30 años. Agencias, tours y Clase V."
+    },
+    {
+      "empresa": "Transfers Cars Barcelona",
+      "email": "info@bcntransfer.com",
+      "telefono": "+34 934 736 736",
+      "prioridad": 2,
+      "encaja_disposicion": true,
+      "notas": "Agencias e incentivos. Sprinter. También aliciam@"
+    },
+    {
+      "empresa": "Chofer Barcelona",
+      "email": "info@barcelonachofer.com",
+      "telefono": null,
+      "prioridad": 2,
+      "encaja_disposicion": true,
+      "notas": "Única con tarifa 4h/8h publicada. Sprinter 16.",
+      "precios_publicos_eur": {
+        "mercedes_e_3_plazas_4h": 240,
+        "mercedes_e_3_plazas_8h": 520,
+        "mercedes_s_4_plazas_4h": 340,
+        "mercedes_s_4_plazas_8h": 760,
+        "mercedes_v_7_plazas_4h": 280,
+        "mercedes_v_7_plazas_8h": 600,
+        "sprinter_16_plazas_4h": 460,
+        "sprinter_16_plazas_8h": 960,
+        "autobus_20_50_4h": 720,
+        "autobus_20_50_8h": 1400
+      },
+      "web_contacto": "https://barcelonachofer.com/contacto/"
+    },
+    {
+      "empresa": "Enmercedes",
+      "email": "info@enmercedes.com",
+      "telefono": "+34 649 969 695",
+      "prioridad": 2,
+      "encaja_disposicion": true,
+      "notas": "Base en Sitges. V y minibús de 8 a 20."
+    },
+    {
+      "empresa": "Berlinas Barcelona",
+      "email": "info@berlinasbarcelona.com",
+      "telefono": "+34 643 937 607",
+      "prioridad": 2,
+      "encaja_disposicion": true,
+      "notas": "Factura mensual a agencias. Rutas por Cataluña."
+    }
+  ],
+  "traslado_ejecutivo": [
+    {
+      "empresa": "BCN Private Chauffeur (Royal Falcon)",
+      "email": "reservations@bcnprivatechauffeur.com",
+      "whatsapp": "+34 632 196 233",
+      "uso": "Por horas, aeropuerto, Costa Brava, Montserrat, Sitges"
+    },
+    {
+      "empresa": "Royal Falcon (cuentas empresa)",
+      "email": "reservation@royalfalconlimo.es",
+      "uso": "Cuentas / reservas empresa"
+    },
+    {
+      "empresa": "City Transfer",
+      "email": "info@citytransfer.es",
+      "telefono": "+34 635 084 561",
+      "notas": "Cuenta de agencia. Vito hasta 8 plazas."
+    },
+    {
+      "empresa": "Premium Car Transfers",
+      "email": "info@premiumcartransfers.com",
+      "telefono": "+34 618 794 722",
+      "notas": "City tour con guía. Mercedes Clase S."
+    },
+    {
+      "empresa": "BlackButton",
+      "email": "info@blackbutton.vip",
+      "telefono": "+34 627 536 199",
+      "notas": "Eventos, MWC y rutas de bodegas."
+    },
+    {
+      "empresa": "Dachs Limousines",
+      "email": "info@dachslimousines.com",
+      "telefono": "+34 932 314 507",
+      "notas": "Congresos y turismo. C/ Valencia 455."
+    },
+    {
+      "empresa": "Mr Charles",
+      "email": "sales@mrcharles.co",
+      "telefono": null,
+      "notas": "Maybach y terminal VIP. Un cliente, no un grupo."
+    }
+  ]
+}
